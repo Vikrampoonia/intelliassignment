@@ -9,8 +9,11 @@ A RESTful API built with Node.js, Express, TypeScript, and Prisma ORM.
 ### 1. Clone the Repository 
 
 
-#git clone https://github.com/Vikrampoonia/intelliassignment.git
-```cd intelli-assignment/backend1```
+git clone https://github.com/Vikrampoonia/intelliassignment.git
+
+```
+cd intelli-assignment/backend1
+```
 
 # to download dependency run this command
 npm install
