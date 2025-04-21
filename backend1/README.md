@@ -1,28 +1,45 @@
-#  Backend
+# Backend
+
+A RESTful API built with Node.js, Express, TypeScript, and Prisma ORM.
+
+---
+
+##  Setup Instructions
+
+### 1. Clone the Repository 
 
 
+git clone https://github.com/Vikrampoonia/intelliassignment.git
+cd intelli-assignment/backend1
 
-## Prerequisites
+# to download dependency run this command
+npm install
 
-Before you begin, make sure you have the following installed on your machine:
+## to run project locally use this command
+npm start or npm run dev
 
-- **Node.js** (version 16 or higher)
-- **npm** (Node Package Manager)
-  
-If you don't have these installed, you can download and install them from [here](https://nodejs.org/).
+## Project Structure
+```
+.
+├── app.ts                      # Main entry point for the server
+├── Routes/
+│   └── authRoute.ts            # Route for login API calls
+├── Controllers/
+│   └── authController.ts       # Logic for API endpoints
+├── Middlewares/
+│   └── errorHandle.ts          # Error handling middleware
+├── utils/
+│   └── AppError.ts             # Custom error handling class
+├── prisma/
+│   └── schema.prisma           # Prisma schema design
+└── .env                        # Environment variables (MongoDB connection string)
+```
 
-## Setup Instructions
+## Server running url
+http://localhost:5000
 
-### 1. Clone the repository
-Start by cloning the repository to your local machine:
-
-git clone [repoLink](https://github.com/Vikrampoonia/intelliassignment.git)
-
-
-#download all dependency
-run npm install 
-
-#Project strucuture
+## Api end point
+http://localhost:5000/api/login
 
 
 
