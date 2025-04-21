@@ -15,10 +15,10 @@ cd intelli-assignment/frontend
 # to download dependency run this command
 npm install
 
-#to run project locally use this command
+## to run project locally use this command
 npm start
 
-#Project Structure
+## Project Structure
 src folder contain
 ./api/auth.ts   used for make api call
 ./components/ui/Button.tsx    used to make button 
