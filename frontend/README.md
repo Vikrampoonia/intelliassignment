@@ -19,6 +19,7 @@ npm install
 npm start
 
 ## Project Structure
+```
 src/
 ├── api/
 │   └── auth.ts              # Contains API call logic for authentication
@@ -42,7 +43,7 @@ src/
 │   └── auth.ts              # TypeScript types for login request/response
 │
 └── App.tsx                  # Main app entry component
-
+```
 
 
 ### Two email and password save in MongoDB so use these to for correct result
