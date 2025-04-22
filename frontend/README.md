@@ -10,7 +10,7 @@ This is the frontend application for the **Intelli Assignment** project. It is b
 
 
 git clone https://github.com/Vikrampoonia/intelliassignment.git
-cd intelli-assignment/frontend
+cd intelliassignment/frontend
 
 # to download dependency run this command
 npm install
